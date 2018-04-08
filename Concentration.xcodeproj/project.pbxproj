@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D8689920780579000ED87E /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8689820780579000ED87E /* Concentration.swift */; };
+		05D8689B207807BA000ED87E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8689A207807BA000ED87E /* Card.swift */; };
 		05DF525320673C3500233D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DF525220673C3500233D84 /* AppDelegate.swift */; };
 		05DF525520673C3500233D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DF525420673C3500233D84 /* ViewController.swift */; };
 		05DF525820673C3500233D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DF525620673C3500233D84 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D8689820780579000ED87E /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		05D8689A207807BA000ED87E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		05DF524F20673C3500233D84 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DF525220673C3500233D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05DF525420673C3500233D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +58,24 @@
 		05DF525120673C3500233D84 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				05DF525220673C3500233D84 /* AppDelegate.swift */,
 				05DF525420673C3500233D84 /* ViewController.swift */,
 				05DF525620673C3500233D84 /* Main.storyboard */,
-				05DF525920673C3500233D84 /* Assets.xcassets */,
-				05DF525B20673C3500233D84 /* LaunchScreen.storyboard */,
+				05D8689820780579000ED87E /* Concentration.swift */,
+				05D8689A207807BA000ED87E /* Card.swift */,
+				05DF526420673CB400233D84 /* Supporting Files */,
 				05DF525E20673C3500233D84 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		05DF526420673CB400233D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DF525220673C3500233D84 /* AppDelegate.swift */,
+				05DF525920673C3500233D84 /* Assets.xcassets */,
+				05DF525B20673C3500233D84 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Banana Viking";
 				TargetAttributes = {
 					05DF524E20673C3500233D84 = {
@@ -138,6 +152,8 @@
 			files = (
 				05DF525520673C3500233D84 /* ViewController.swift in Sources */,
 				05DF525320673C3500233D84 /* AppDelegate.swift in Sources */,
+				05D8689920780579000ED87E /* Concentration.swift in Sources */,
+				05D8689B207807BA000ED87E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +193,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +201,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +252,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +260,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
